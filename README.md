@@ -10,12 +10,23 @@
 
 
 ## 2. Codes to run ##
+<pre>
+<code>
+git clone https://github.com/laitridung2004/Deep-Learning-Assignment.-Semantic-Segmentation.git
+</code>
+</pre>
 
-```git clone https://github.com/laitridung2004/Deep-Learning-Assignment.-Semantic-Segmentation.git```
+<pre>
+<code>
+cd Deep-Learning-Assignment.-Semantic-Segmentation
+</code>
+</pre>
 
-```cd Deep-Learning-Assignment.-Semantic-Segmentation```
-
-```python3 infer.py --image_path image.jpeg```
+<pre>
+<code>
+python3 infer.py --image_path image.jpeg
+</code>
+</pre>
 
 ## Note ##
 
