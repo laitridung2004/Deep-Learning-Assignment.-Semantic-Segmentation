@@ -34,7 +34,7 @@ def mask_to_rgb(mask, color_dict):
         output[mask == k] = color
     return output
 
-os.makedirs("prediction", exist_ok=True)
+os.makedirs("result", exist_ok=True)
 
 image_path = args.image_path
 if not os.path.exists(image_path):
@@ -59,7 +59,7 @@ mask = np.argmax(mask, axis=2)
 
 mask_rgb = mask_to_rgb(mask, color_dict)
 mask_rgb_bgr = cv2.cvtColor(mask_rgb, cv2.COLOR_RGB2BGR)
-output_path = os.path.join("prediction", "segmented_image_color.png")
+output_path = os.path.join("result", "segmented_image_color.png")
 cv2.imwrite(output_path, mask_rgb_bgr)
 
 print(f"Segmented image saved at {output_path}")
