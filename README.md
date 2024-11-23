@@ -4,7 +4,7 @@
 
 &nbsp; As the checkpoint is quite big to upload directly, please visit this Google Drive link to download: 
 
-&nbsp; [Click here to direct to my Google Drive checkpoint](https://drive.google.com/file/d/1oleJJKvTGvv7o8DWnmhIA8vl54DLvMhV/view?usp=drive_link)
+&nbsp; <a href="https://drive.google.com/file/d/1oleJJKvTGvv7o8DWnmhIA8vl54DLvMhV/view?usp=drive_link" target="_blank">Click here to direct to my Google Drive checkpoint</a>
 
 
 &nbsp; After you have done downloading this model, you should place it together with the code infer.py (in the same folder, the respiratory)
