@@ -1,17 +1,24 @@
 # Deep-Learning-Assignment.-Semantic-Segmentation
 
-1. Model checkpoint directory: https://drive.google.com/file/d/1oleJJKvTGvv7o8DWnmhIA8vl54DLvMhV/view?usp=drive_link
+## 1. Checkpoint directory ##
 
-You should put the model checkpoint in the same direct as the file "infer.py"
+&nbsp; As the checkpoint is quite big to upload directly, please visit this Google Drive link to download: 
+
+```https://drive.google.com/file/d/1oleJJKvTGvv7o8DWnmhIA8vl54DLvMhV/view?usp=drive_link ```
+
+&nbsp; After you have done downloading this model, you should place it together with the code infer.py (in the same folder, the respiratory)
 
 
-2. Codes to run:
-```bash
-git clone https://github.com/laitridung2004/Deep-Learning-Assignment.-Semantic-Segmentation.git
-```
-```bash
-cd Deep-Learning-Assignment.-Semantic-Segmentation
-```
-```bash
-python3 infer.py --image_path image.jpeg
-```
+## 2. Codes to run ##
+
+```git clone https://github.com/laitridung2004/Deep-Learning-Assignment.-Semantic-Segmentation.git```
+
+```cd Deep-Learning-Assignment.-Semantic-Segmentation```
+
+```python3 infer.py --image_path image.jpeg```
+
+## Note ##
+
+&nbsp; The result will be stored in a folder named "result", please give it a check!
+
+&nbsp; Thank you so much. I really appreciate your work!!!
