@@ -6,9 +6,12 @@ You should put the model checkpoint in the same direct as the file "infer.py"
 
 
 2. Codes to run:
-
+```bash
 git clone https://github.com/laitridung2004/Deep-Learning-Assignment.-Semantic-Segmentation.git
-
+```
+```bash
 cd Deep-Learning-Assignment.-Semantic-Segmentation
-
+```
+```bash
 python3 infer.py --image_path image.jpeg
+```
